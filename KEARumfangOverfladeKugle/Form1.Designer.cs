@@ -37,6 +37,7 @@
             this.labelArea = new System.Windows.Forms.Label();
             this.textBoxArea = new System.Windows.Forms.TextBox();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.labelError = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -53,14 +54,14 @@
             // 
             this.textBoxRadius.Location = new System.Drawing.Point(265, 163);
             this.textBoxRadius.Name = "textBoxRadius";
-            this.textBoxRadius.Size = new System.Drawing.Size(100, 31);
+            this.textBoxRadius.Size = new System.Drawing.Size(239, 31);
             this.textBoxRadius.TabIndex = 1;
             // 
             // buttonCalc
             // 
             this.buttonCalc.Location = new System.Drawing.Point(109, 238);
             this.buttonCalc.Name = "buttonCalc";
-            this.buttonCalc.Size = new System.Drawing.Size(256, 53);
+            this.buttonCalc.Size = new System.Drawing.Size(403, 53);
             this.buttonCalc.TabIndex = 2;
             this.buttonCalc.Text = "Calculate";
             this.buttonCalc.UseVisualStyleBackColor = true;
@@ -79,7 +80,7 @@
             // 
             this.textBoxVolume.Location = new System.Drawing.Point(265, 335);
             this.textBoxVolume.Name = "textBoxVolume";
-            this.textBoxVolume.Size = new System.Drawing.Size(100, 31);
+            this.textBoxVolume.Size = new System.Drawing.Size(239, 31);
             this.textBoxVolume.TabIndex = 4;
             // 
             // labelArea
@@ -95,23 +96,32 @@
             // 
             this.textBoxArea.Location = new System.Drawing.Point(265, 408);
             this.textBoxArea.Name = "textBoxArea";
-            this.textBoxArea.Size = new System.Drawing.Size(100, 31);
+            this.textBoxArea.Size = new System.Drawing.Size(239, 31);
             this.textBoxArea.TabIndex = 6;
             // 
             // pictureBox1
             // 
             this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(596, 163);
+            this.pictureBox1.Location = new System.Drawing.Point(642, 163);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(275, 276);
+            this.pictureBox1.Size = new System.Drawing.Size(657, 521);
             this.pictureBox1.TabIndex = 7;
             this.pictureBox1.TabStop = false;
+            // 
+            // labelError
+            // 
+            this.labelError.AutoSize = true;
+            this.labelError.Location = new System.Drawing.Point(109, 76);
+            this.labelError.Name = "labelError";
+            this.labelError.Size = new System.Drawing.Size(0, 25);
+            this.labelError.TabIndex = 8;
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(12F, 25F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1201, 701);
+            this.ClientSize = new System.Drawing.Size(1924, 1036);
+            this.Controls.Add(this.labelError);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.textBoxArea);
             this.Controls.Add(this.labelArea);
@@ -138,6 +148,7 @@
         private System.Windows.Forms.Label labelArea;
         private System.Windows.Forms.TextBox textBoxArea;
         private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.Label labelError;
     }
 }
 
