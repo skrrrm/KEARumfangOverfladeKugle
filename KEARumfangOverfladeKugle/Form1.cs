@@ -16,5 +16,10 @@ namespace KEARumfangOverfladeKugle
         {
             InitializeComponent();
         }
+
+        private void buttonCalc_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
